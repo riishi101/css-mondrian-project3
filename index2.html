@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            height: 620px;
+            width: 645px;
+            gap: 15px;
+            background-color: black;
+            grid-template-columns: 50px 250px 250px 50px;
+            grid-template-rows: 50px 250px 200px 30px;
+        }
+        .grid{
+            background-color: wheat;
+        }
+        .first{
+            background-color: red;
+            grid-column: span 2;
+        }
+        .second{
+            grid-row: span 2;
+        }
+        .fourth{
+            background-color: red;
+            grid-column: span 2;
+        }
+        .third{
+            background-color: yellow;
+            grid-row: span 2;
+        }
+        .fifth{
+            grid-row: span 2;
+        }
+        .sixth{
+            grid-row: span 2;
+        }
+        .eight{
+            background-color: black;
+        }
+        .ninth{
+            background-color: blue;
+            grid-column: span 2;
+            grid-row: span 3;
+        }
+        .tenth{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid first"></div>
+        <div class="grid second"></div>
+        <div class="grid third"></div>
+        <div class="grid fourth"></div>
+        <div class="grid fifth"></div>
+        <div class="grid sixth"></div>
+        <div class="grid seventh"></div>
+        <div class="grid eight"></div>
+        <div class="grid ninth"></div>
+        <div class="grid tenth"></div>
+    </div>
+</body>
+</html>
